@@ -44,10 +44,12 @@
         <h1 style="color:white; font-size:9em !important; font-family: 'Pathway Gothic One', sans-serif;"><span style="color:#91a224">JUNK</span>TION</h1>
         <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
       </div>
-        <button type="button" id="btnHello" class="btn
-        " style="margin-right:12px">Sign-up</button>
-          <button type="button" id="btnHello" class="btn btn-default">Log-in</button>
-        <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+
+        <button onclick="window.location.href='sign-up.php'" type="button" id="btnHello" class="btn btn-default" style="margin-right:12px; background-color: #90a124;
+    color: white;">Sign-up</button>
+
+          <button onclick="window.location.href='login.php'" type="button" id="btnHello" class="btn btn-default">Log-in</button>
+      
     </div>
     <!-- end section -->
 
