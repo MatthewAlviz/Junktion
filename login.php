@@ -57,10 +57,10 @@
 <article class="card-body">
 <a onclick="window.location.href='sign-up.php'" class="float-right btn btn-outline-primary">Sign up</a>
 <h4 class="card-title mb-4 mt-1">Log in</h4>
-   <form>
+   <form action="validator.php">
     <div class="form-group">
       <label>Your email</label>
-        <input name="" class="form-control" placeholder="Email@gmail.com" type="email">
+        <input name="email" class="form-control" placeholder="Email@gmail.com" type="text">
     </div> <!-- form-group// -->
     <div class="form-group">
       <a class="float-right" href="#">Forgot?</a>
@@ -73,7 +73,7 @@
     </div> <!-- checkbox .// -->
     </div> <!-- form-group// -->
     <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block"> Login  </button>
+        <button  type="submit" class="btn btn-primary btn-block"> Login  </button>
     </div> <!-- form-group// -->
 </form>
 </article>
@@ -107,7 +107,7 @@
 	</div> <!-- input-group.// -->
 	</div> <!-- form-group// -->
 	<div class="form-group">
-	<button onclick="window.location.href='User.html'" type="submit" class="btn btn-primary btn-block"> Login  </button>
+	<button onclick="window.location.href='User.php'" type="submit" class="btn btn-primary btn-block"> Login  </button>
 	</div> <!-- form-group// -->
 	<p class="text-center"><a href="#" class="btn">Forgot password?</a></p>
 	</form>
